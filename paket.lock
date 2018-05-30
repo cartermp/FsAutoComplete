@@ -22,13 +22,13 @@ NUGET
       System.Collections.Immutable (>= 1.3.1)
     System.ValueTuple (4.5) - redirects: force
   remote: lib
-    FSharp.Compiler.Service (22.0.3.1)
+    FSharp.Compiler.Service (22.0.4)
       FSharp.Core (>= 4.1.19)
       System.Collections.Immutable (>= 1.3.1)
       System.Reflection.Metadata (>= 1.4.2)
       System.ValueTuple (>= 4.3.1)
-    FSharp.Compiler.Service.ProjectCracker (22.0.3.1)
-      FSharp.Compiler.Service (>= 22.0.3)
+    FSharp.Compiler.Service.ProjectCracker (22.0.4)
+      FSharp.Compiler.Service (>= 22.0.4)
       FSharp.Core (>= 4.1.19)
       System.ValueTuple (>= 4.3.1)
 
@@ -794,7 +794,7 @@ NUGET
       System.Threading (>= 4.3) - restriction: && (< monoandroid) (< monotouch) (< net46) (>= netstandard1.3) (< xamarinios) (< xamarinmac) (< xamarintvos) (< xamarinwatchos)
       System.Xml.ReaderWriter (>= 4.3) - restriction: && (< monoandroid) (< monotouch) (< net46) (>= netstandard1.3) (< xamarinios) (< xamarinmac) (< xamarintvos) (< xamarinwatchos)
   remote: lib
-    FSharp.Compiler.Service (22.0.3.1)
+    FSharp.Compiler.Service (22.0.4)
       FSharp.Core (>= 4.1.19) - restriction: || (>= net45) (>= netstandard2.0)
       System.Collections.Immutable (>= 1.3.1) - restriction: || (>= net45) (>= netstandard2.0)
       System.Diagnostics.Process (>= 4.1) - restriction: && (< net45) (>= netstandard2.0)
@@ -805,8 +805,8 @@ NUGET
       System.Runtime.Loader (>= 4.0) - restriction: && (< net45) (>= netstandard2.0)
       System.Security.Cryptography.Algorithms (>= 4.3) - restriction: && (< net45) (>= netstandard2.0)
       System.ValueTuple (>= 4.3.1) - restriction: >= net45
-    FSharp.Compiler.Service.ProjectCracker (22.0.3.1) - restriction: < netstandard2.0
-      FSharp.Compiler.Service (>= 22.0.3) - restriction: >= net45
+    FSharp.Compiler.Service.ProjectCracker (22.0.4) - restriction: < netstandard2.0
+      FSharp.Compiler.Service (>= 22.0.4) - restriction: >= net45
       FSharp.Core (>= 4.1.19) - restriction: >= net45
       System.ValueTuple (>= 4.3.1) - restriction: >= net45
 GITHUB
